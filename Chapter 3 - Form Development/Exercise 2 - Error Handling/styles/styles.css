@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.error {
+  border: solid 1px red;
+}
+
+.error-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: red;
+}
+
+.success {
+  color: green;
+}
